@@ -1,0 +1,73 @@
+.descricao {
+  width: 70vw;
+
+  margin: 0 auto;
+  margin-top: 2vh;
+}
+.codigo {
+  font-size: 0.8vw;
+}
+span {
+  margin-left: 2vw;
+  font-size: 1vw;
+}
+#precoInicial {
+  text-decoration: line-through;
+}
+.img-produto {
+  display: block;
+  margin: 0 auto;
+}
+.img-produto img {
+  width: 100%;
+}
+.descricao .row {
+  margin-top: 8vh;
+  color: #3b2314;
+}
+
+button {
+  text-align: center;
+  width: 90%;
+  border-radius: 30rem;
+  padding: 1vh 1vw;
+  border: 0.2vw solid #3b2314;
+  background: #3b2314;
+  color: white;
+  font-weight: 800;
+  top: 20vh;
+  left: 1vw;
+  outline: none;
+  margin: 10px;
+  font-size: 1.1vw;
+}
+.descricao button img {
+  width: 1.6vw;
+}
+.yellow-btn {
+  background: #f9a51a;
+  border: #f9a51a;
+  color: #3b2314;
+}
+select {
+  border: 1px solid #3b2314;
+  border-radius: 30px;
+  width: 80%;
+  padding: 0.3vh 1vw;
+  font-size: 1vw;
+}
+.estoque {
+  margin-top: 1.1vh;
+  font-weight: 400;
+  font-size: 1.2vw;
+  color: green;
+}
+#precoFinal {
+  font-size: 2vw;
+  font-weight: 800;
+  text-align: center;
+  color: #3b2314;
+}
+.item {
+  font-size: 1.1vw;
+}

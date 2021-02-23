@@ -1,0 +1,72 @@
+a {
+  text-decoration: none;
+}
+.loja {
+  margin: 3px auto;
+  margin-left: 10vw;
+  max-width: 100%;
+  color: #3b2314;
+}
+.loja a {
+  cursor: pointer !important;
+}
+.card-destaque a p,
+.card-outros a p {
+  color: #3b2314;
+  font-size: 1.3vw;
+  font-weight: 500;
+  margin: 0.3vh 0.4vw;
+}
+h2 {
+  font-size: 1.6vw;
+  font-weight: 600;
+  color: #3b2314;
+  margin-top: 5vh;
+}
+.info-loja h2 {
+  margin-top: 2vh;
+}
+
+.img-container {
+  display: block;
+  margin: 0 auto;
+}
+.img-container img {
+  width: 100%;
+}
+
+.card-destaque {
+  text-align: center;
+  width: 20vw;
+  display: inline-block;
+}
+.produto-nome {
+  font-size: 1.5vw;
+}
+.produto-preco {
+  padding: 3px;
+  font-size: 1.3vw;
+}
+
+.mais-info {
+  width: 30vw;
+}
+.nome-loja {
+  width: 25vw;
+  padding-right: 10vw;
+}
+button {
+  text-align: center;
+  width: 10vw;
+  border-radius: 30rem;
+  padding: 1vh 1vw;
+  border: 0.2vw solid #3b2314;
+  background: #3b2314;
+  color: white;
+  font-weight: 800;
+  top: 20vh;
+  left: 1vw;
+  outline: none;
+  margin: 10px;
+  font-size: 1.2vw;
+}

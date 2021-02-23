@@ -1,0 +1,133 @@
+.container6 {
+  width: 70vw;
+  margin: 5vh auto;
+
+  text-align: center;
+}
+/*passo 1*/
+.btn-carrinho {
+  border: none;
+  width: 8vw;
+}
+.etapa {
+  background-color: #f9a51a;
+  color: #3b2314;
+}
+.tbClProdutos {
+  margin: 2vh;
+  width: 100%;
+
+  line-height: 45pt;
+}
+.tbClProdutos tr {
+  border-bottom: 1px solid #3b2314;
+}
+
+.btnMais {
+  border-radius: 3px;
+  background-color: #f9a51a;
+  padding: 5px;
+  color: white;
+  font-size: 1vw;
+  transition: 300ms ease;
+}
+.btnMais:hover {
+  color: rgb(212, 212, 209);
+  cursor: pointer;
+}
+.btnExcluir {
+  height: 10px;
+  line-height: 3px;
+  width: 80px;
+  border: none;
+  background-color: transparent;
+  color: tomato;
+  transition: 300ms ease;
+  text-align: center;
+}
+.btnExcluir:hover {
+  color: #333;
+  cursor: pointer;
+}
+.tdClProdutoNome {
+  text-align: left;
+  font-size: 1.2vw;
+  color: #3b2314;
+}
+.precoTotal {
+  color: #3b2314;
+  font-weight: 600;
+  font-size: 2.8vw;
+  text-align: right;
+}
+.container6 .yellow-btn {
+  width: 15vw;
+}
+.container6 form {
+  margin: 5vh auto;
+}
+.btn-container .btn-fim {
+  width: 15vw;
+  height: 6vh;
+  padding: 8px;
+  margin: 10px 0;
+}
+.btn-mais {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagamento-container {
+  color: #3b2314;
+}
+.pagamentos label {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: 1.1vw;
+}
+.pags {
+  margin-left: 5vw;
+  margin-bottom: 3vh;
+}
+.pags label {
+  margin-left: 1vw;
+  font-weight: 500;
+}
+.dados-cartao {
+  display: grid;
+  grid-template-columns: 25% 35% 12% 8%;
+  grid-gap: 2%;
+  gap: 2%;
+  justify-content: center;
+}
+.dados-cartao input {
+  width: 100%;
+  border: 1px solid #3b2314;
+  border-radius: 30px;
+}
+.dados-cartao label {
+  color: #3b2314;
+}
+.numero-content,
+.nome-content,
+.validade-content,
+.cvc-content {
+  text-align: left;
+}
+.pedido {
+  color: #3b2314;
+  margin: 5vh auto;
+}
+.pedido p {
+  font-size: 1.2vw;
+}
+#numPedido {
+  font-size: 2vw;
+  font-weight: 600;
+}
+.resul {
+  margin: 8vh 0;
+}

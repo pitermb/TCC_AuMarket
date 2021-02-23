@@ -1,0 +1,111 @@
+body {
+  background-color: white;
+}
+.banner {
+  display: inline-block;
+  position: relative;
+}
+.banner img {
+  margin-top: 5vh;
+  margin-left: 8vw;
+  text-align: center;
+  width: 80vw;
+}
+.banner h3 {
+  color: #3b2314;
+  width: 25vw;
+  position: absolute;
+  top: 30%;
+  left: 20vw;
+  font-size: 2.2vw;
+}
+.banner p {
+  color: #3b2314;
+  width: 30vw;
+  position: absolute;
+  top: 60%;
+  left: 20vw;
+  font-size: 1.4vw;
+}
+
+.produtos {
+  margin-top: 8vh;
+  text-align: left;
+  margin-left: 15vw;
+}
+.produtos h2 {
+  color: #3b2314;
+  font-size: 2vw;
+  font-weight: 400;
+}
+.produtos .hr {
+  background-color: #3b2314;
+  height: 0.2vh;
+  width: 65vw;
+}
+.opcoes {
+  display: block;
+  margin: 3vh auto;
+  margin-left: 15vw;
+  max-width: 100%;
+}
+.opcoes .linha {
+  margin-top: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.opcoes .linha .unidade {
+  margin-left: 5vw;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.opcoes .linha .unidade img {
+  width: 10vw;
+}
+.opcoes .linha .unidade button {
+  margin-left: 0;
+  margin-top: -0.1vh;
+  padding: 1vh 1vw;
+  border-radius: 30rem;
+  border: 0.2vw solid #3b2314;
+  outline: none;
+  background: #3b2314;
+
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1vw;
+
+  width: 100%;
+  display: block;
+
+  transition: 300ms ease;
+}
+.opcoes .linha .unidade button:hover,
+.opcoes .linha .unidade button:focus {
+  background-color: #6d4125;
+  border: 0.2vw solid #6d4125;
+}
+.menu ul li img {
+  left: -0.3vw;
+}
+#idButonPesquisa {
+  background: none;
+  border-left: 2px solid gray;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0px;
+  width: 3vw;
+  box-sizing: border-box;
+  position: relative;
+  left: -3.5vw;
+  top: 0.1vh;
+}
+#idButonPesquisa:hover {
+  background-color: #333;
+  opacity: 0.3;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}

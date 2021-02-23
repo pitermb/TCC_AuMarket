@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+nav {
+  margin: auto;
+  width: 100%;
+  background-color: #3b2314;
+  justify-content: flex-end;
+  height: 8vh;
+}
+nav,
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+nav ul {
+  padding-top: 1vh;
+}
+nav ul li {
+  font-size: 1vw;
+  padding-right: 2vw;
+  display: inline;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  color: #f9a51a;
+}
+nav ul li a img {
+  margin-right: 3vw;
+  width: 1.6vw;
+  display: inline;
+  outline: none;
+}
+
+nav ul li a img:hover,
+nav ul li a img:focus {
+  color: #f9a51a;
+  border: none;
+}
+
+.menu {
+  justify-content: center;
+  margin-top: 2vh;
+}
+.menu ul {
+  margin-top: 6vh;
+}
+.menu ul li {
+  color: #3b2314;
+  font-size: 0.8vw;
+  padding-right: 2vw;
+  display: inline;
+}
+.menu ul li a {
+  color: #3b2314 !important;
+  font-size: 1.2vw;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  outline: none;
+}
+.menu ul li a:hover,
+.menu ul li a:focus {
+  color: #f9a51a !important;
+}
+.menu ul li input {
+  width: 20vw;
+  border-radius: 50px;
+
+  padding: 0.3vh 1.5vw;
+  border: 2px solid gray;
+  background: transparent;
+  background: url(../../images/search.svg) no-repeat right;
+  background-size: 1vw;
+  background-position-x: 20vw;
+
+  outline: none;
+  font-size: 1.2vw;
+}
+::placeholder {
+  font-size: 1.2vw;
+}
+.menu ul li img {
+  width: 1.3vw;
+  position: relative;
+  left: -2.3vw;
+  background: transparent;
+}
+.logo {
+  width: 30vw;
+  left: 20vh;
+  margin: auto;
+  margin-top: -8vh;
+}
+.logo img {
+  width: 25vw;
+}
+
+@media only screen and (max-width: 750px) {
+  nav {
+    justify-content: center;
+    height: 10vh;
+  }
+  nav,
+  .menu {
+    align-items: center;
+  }
+  nav ul li a {
+    font-size: 4rem;
+    padding-left: 20px;
+  }
+  nav ul li a img {
+    width: 6vw;
+  }
+  .logo {
+    width: 100vw;
+    margin-top: 0px;
+  }
+  .logo img {
+    width: 100vw;
+  }
+  .menu ul li a {
+    display: none;
+  }
+  .menu ul li input {
+    margin-right: 3px;
+    width: 75vw;
+    height: 4vh;
+    background: url(../../images/search.svg) no-repeat right;
+    background-size: 3rem;
+    background-position-x: 70vw;
+    outline: none;
+  }
+  ::placeholder {
+    font-size: 3rem;
+  }
+}

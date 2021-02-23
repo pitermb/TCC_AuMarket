@@ -1,0 +1,50 @@
+.tituloContainer {
+  width: 80vw;
+  margin: 3vh auto;
+}
+.container5 {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.container5 p {
+  font-size: 1.2vw;
+}
+.container5 h3,
+h5 {
+  color: #3b2314;
+}
+.container5 h5 {
+  font-weight: 800;
+  font-size: 1.8vw;
+}
+.sobrePrograma p {
+  text-indent: 50px;
+  text-align: justify;
+  line-height: 25pt;
+}
+.contatos .foto-container {
+  text-align: center;
+}
+
+.contatos .linha {
+  display: flex;
+  flex-direction: row;
+}
+.linha {
+  margin: 5vh auto;
+}
+.linha .foto-container img {
+  width: 70%;
+  border: 7px double #3b2314;
+}
+.contato-container {
+  margin-top: 2vh;
+
+  margin-left: 0;
+  width: 50%;
+}
+.contato-container p {
+  margin: 3px 0;
+}

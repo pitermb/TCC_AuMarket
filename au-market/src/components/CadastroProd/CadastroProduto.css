@@ -1,0 +1,30 @@
+.container12 {
+  width: 60vw;
+  margin: 5vh auto;
+  background-color: #f9a51a;
+  padding: 2vh 4vw;
+  border-radius: 5px;
+  color: #3b2314;
+}
+
+.table_container {
+  width: 80vw;
+  margin: 3vh auto;
+  color: #3b2314;
+}
+.btn-container {
+  display: block;
+  text-align: right;
+}
+.btn-add {
+  background-color: #3b2314;
+  color: white;
+  padding: 2vh 3vw;
+  border-radius: 30px;
+  border: none;
+  width: 12vw;
+  text-align: center;
+}
+.btn-add:hover {
+  background-color: #3b2314 !important;
+}

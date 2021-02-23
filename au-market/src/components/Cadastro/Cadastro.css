@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap%22");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.container1 {
+  background-color: #f9a51a;
+  width: 80vw;
+  margin: 5vh auto;
+  border-radius: 6px;
+}
+.container1 input {
+  padding-bottom: 0.4vh;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.2vh 1.3vw;
+  font-size: 1.2vw;
+}
+.container1 input::placeholder {
+  font-size: 0.8vw;
+}
+
+.text-top-line {
+  margin: 0 5vw;
+  padding-top: 5vh;
+  color: #3b2314;
+}
+.text-top-line h2 {
+  font-size: 1.6vw;
+}
+.container1 .text-top-line small,
+.cadastro-form-container .small {
+  font-size: 0.8vw;
+}
+
+.cadastro-form-container {
+  margin: 0 5vw;
+  color: #3b2314;
+}
+.button-div {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: center;
+}
+.creat-button {
+  border: 0.2vw solid #3b2314;
+  padding: 1vh 0vw;
+  width: 100%;
+  border-radius: 40px;
+  color: rgb(255, 255, 255);
+  background-color: #3b2314;
+  outline: none;
+  font-size: 1.2vw;
+  cursor: pointer;
+  outline-width: 0;
+}
+.creat-button:disabled {
+  background-color: #463b34;
+  border: #463b34;
+}
+
+.form-control {
+  margin-top: 1vh;
+}
+.row label {
+  margin-top: 1.8vh;
+  font-size: 1vw;
+}
+p {
+  font-size: 0.3vw;
+}
+.msgAlerta {
+  width: 100%;
+}
+.msgAlerta .divEmailSenha {
+  font-size: 1.6vw;
+  color: red;
+  text-align: center;
+}

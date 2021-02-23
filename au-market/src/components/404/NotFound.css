@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+.container3 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 5vh auto;
+}
+.container3 .col-md-6 {
+  width: 50vw;
+}
+.img-container {
+  width: 70%;
+}
+
+.container-info {
+  display: block;
+  margin-left: 2vw;
+}
+#ops {
+  font-family: "Indie Flower", cursive;
+  font-size: 7vw;
+}
+.erro {
+  font-weight: 500;
+  font-size: 2vw;
+  color: #3b2314;
+}
+.btn-container {
+  display: block;
+  margin: 2vh;
+  margin-left: 7vw;
+}
+.btn-container button {
+  transition: 300ms ease;
+}
+.btn-container.not-found {
+  text-align: left;
+}
+.btn-container button:hover {
+  background-color: #f9a51a;
+  border: 2px solid #f9a51a;
+}
+#voltar-found {
+  width: 10vw;
+  margin-left: 2vw;
+}
+.volte {
+  font-size: 1.1vw;
+  font-weight: 400;
+  color: #3b2314;
+}
+.logo-image img {
+  width: 30vw;
+}

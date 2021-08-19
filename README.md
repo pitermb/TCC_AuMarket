@@ -22,7 +22,7 @@ Back-end
 
 Uso do framework React: Pelo fato de se tratar de uma aplicação em single page, dessa forma é possível renderizar componentes independentes e não toda a estrutura.
 
-Uso do Bootstrap: Usado do bootstrap faz parte de uns 10% da nossa aplicação, só usado mais para estilos de buttons, como de certo modo é uma biblioteca um pouco pesada usamos mais o CSS para estilo.
+Uso do Bootstrap: Usado do bootstrap faz parte de 10% da nossa aplicação, só usado mais para estilos de buttons, como de certo modo é uma biblioteca um pouco pesada usamos mais o CSS para estilo.
 
 Uso do NodeJs: Usamos o NodeJs para fazer parte do nosso back-end e a biblioteca Express, para fazer a ligação do back com o front.
 
@@ -36,7 +36,7 @@ Uso do NodeMailer: É um requerimento que usamos para fazer envios de confirmaç
 
 Ao instalar o MongoDB, você deverá criar uma pasta "data" dentro do seu disco local C, dentro da pasta "data", você irá criar a pasta "db".
 
-Para dar o primeiro passo de como iniciar o bando de dados Mongo, você deve acessar essa rota no seu documento do windows após a instalação: 
+Para dar o primeiro passo de como iniciar o banco de dados Mongo, você deve acessar essa rota no seu documento do windows após a instalação: 
 C:\Program Files\MongoDB\Server\4.4\bin
 
 Executar o programa chamado "mongod.exe" e deixar rodando ao fundo
